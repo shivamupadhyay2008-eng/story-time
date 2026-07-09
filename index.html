@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Midnight Paradox</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+
+        body {
+            background-color: #0b0b0d;
+            color: #ffffff;
+            font-family: 'Playfair Display', serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .container {
+            animation: fadeIn 2.5s ease-out;
+        }
+
+        .title {
+            font-size: 3.5rem;
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+            color: #fff;
+            text-shadow: 0 0 10px rgba(255, 0, 85, 0.6), 0 0 20px rgba(255, 0, 85, 0.4); 
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #a0a0aa;
+            margin-bottom: 50px;
+            font-style: italic;
+            letter-spacing: 1px;
+        }
+
+        .enter-btn {
+            padding: 14px 35px;
+            font-size: 1rem;
+            color: #ff0055;
+            background: transparent;
+            border: 1px solid #ff0055;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: all 0.4s ease;
+            font-family: sans-serif;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        .enter-btn:hover {
+            background: #ff0055;
+            color: #0b0b0d;
+            box-shadow: 0 0 20px #ff0055;
+            cursor: pointer;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(10px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="title">The Midnight Paradox</h1>
+        <p class="subtitle">A special birthday story written for you</p>
+        <a href="chapter1.html" class="enter-btn">Begin Reading</a>
+    </div>
+
+</body>
+</html>
