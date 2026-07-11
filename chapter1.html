@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter One - The Midnight Paradox</title>
+    <title>Chapter One - The Midnight Vow</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,600;1,400&display=swap');
 
         body {
             background-color: #0b0b0d;
@@ -31,6 +31,23 @@
             margin-bottom: 60px;
         }
 
+        .book-title {
+            font-family: sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-size: 0.85rem;
+            color: #a0a0aa;
+            margin-bottom: 15px;
+        }
+
+        .header-divider {
+            width: 50px;
+            height: 2px;
+            background-color: #ff0055;
+            margin: 0 auto 25px auto;
+            box-shadow: 0 0 8px #ff0055;
+        }
+
         .chapter-number {
             color: #ff0055;
             text-transform: uppercase;
@@ -45,6 +62,7 @@
             font-size: 2.5rem;
             color: #ffffff;
             margin: 0;
+            letter-spacing: 1px;
         }
 
         p {
@@ -52,7 +70,12 @@
             text-align: justify;
         }
 
-        /* Styling for the first letter of the chapter */
+        .inner-thought {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            color: #c4c4cc; 
+        }
+
         p:first-of-type::first-letter {
             font-family: 'Playfair Display', serif;
             font-size: 3.5rem;
@@ -94,18 +117,36 @@
 
     <div class="story-wrapper">
         <div class="chapter-header">
+            <div class="book-title">The Midnight Vow</div>
+            <div class="header-divider"></div>
+            
             <span class="chapter-number">Chapter One</span>
-            <h2 class="chapter-title">The First Encounter</h2>
+            <h2 class="chapter-title">The Intro</h2>
         </div>
 
-        <!-- REPLACE THE PARAGRAPHS BELOW WITH YOUR ACTUAL STORY -->
-        <p>This is where your story starts. The first paragraph will automatically have a drop-cap (a large stylized first letter) to give it a classic, elegant novel aesthetic.</p>
+        <p class="inner-thought">We create our own demons was once said by a legend but we spend our whole life hiding it, maybe he forgot to add this. Well it doesn't matter cause we all know it anyways.</p>
         
-        <p>Add as many paragraphs as you like right here. The text layout has been optimized for clean spacing and comfortable reading on both phones and laptops.</p>
+        <p class="inner-thought">I spent my whole life finding pieces of the missing puzzle of the chapter known as peace, but life never let me complete it.</p>
+        
+        <p>"you still with us Bruce?"</p>
+        
+        <p>"Yeah.. I was just thinking what to eat tonight"</p>
+        
+        <p class="inner-thought">I'm a terrible liar but people don't notice much, that keeps me safe</p>
+        
+        <p class="inner-thought">Besides me is Jack, 5'9 tall, looks average and always tags around me, I hate it but i won't say it,</p>
+        
+        <p class="inner-thought">Another one is Lily, soft spoken, average height and probably has crush on me, only if she knew the actual me</p>
+        
+        <p class="inner-thought">I'm Bruce, I spent my whole life creating masks, so no one can get to know the actual me, I'm 5'9 as well, and let's say i look better than the morons here</p>
+        
+        <p>"So you are joining us for football right?" Said jack happily</p>
+        
+        <p>"Ofc, give me a reason to say no" I said giving him a smile</p>
+        
+        <p class="inner-thought">The real me asked myself, is this what I'm supposed to do, do I belong there, can I handle them? Or better to say, can they handle ME?</p>
 
-        <!-- NAVIGATION TO NEXT PAGE -->
         <div class="navigation-area">
-            <!-- For chapter 1, this links to chapter2.html. For chapter 2, change it to chapter3.html -->
             <a href="chapter2.html" class="next-btn">Continue Journey</a>
         </div>
     </div>
