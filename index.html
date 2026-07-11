@@ -3,77 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Midnight Vow</title>
+    <title>Chapter One - The Midnight Vow</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,600;1,400&display=swap');
 
         body {
             background-color: #0b0b0d;
-            color: #ffffff;
-            font-family: 'Playfair Display', serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
+            color: #e4e4e7;
+            font-family: 'Lora', serif;
+            line-height: 1.8;
+            font-size: 1.15rem;
             margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .story-wrapper {
+            max-width: 650px;
+            width: 90%;
+            padding: 80px 20px;
+        }
+
+        .chapter-header {
+            font-family: 'Playfair Display', serif;
             text-align: center;
-            overflow: hidden;
+            margin-bottom: 60px;
         }
 
-        .container {
-            animation: fadeIn 2.5s ease-out;
-        }
-
-        .title {
-            font-size: 3.5rem;
-            margin-bottom: 15px;
-            letter-spacing: 2px;
-            color: #fff;
-            text-shadow: 0 0 10px rgba(255, 0, 85, 0.6), 0 0 20px rgba(255, 0, 85, 0.4); 
-        }
-
-        .subtitle {
-            font-size: 1.2rem;
+        .book-title {
+            font-family: sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-size: 0.85rem;
             color: #a0a0aa;
-            margin-bottom: 50px;
-            font-style: italic;
+            margin-bottom: 15px;
+        }
+
+        .header-divider {
+            width: 50px;
+            height: 2px;
+            background-color: #ff0055;
+            margin: 0 auto 25px auto;
+            box-shadow: 0 0 8px #ff0055;
+        }
+
+        .chapter-number {
+            color: #ff0055;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-size: 0.9rem;
+            font-family: sans-serif;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .chapter-title {
+            font-size: 2.5rem;
+            color: #ffffff;
+            margin: 0;
             letter-spacing: 1px;
         }
 
-        .enter-btn {
-            padding: 14px 35px;
-            font-size: 1rem;
+        p {
+            margin-bottom: 25px;
+            text-align: justify;
+        }
+
+        .inner-thought {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            color: #c4c4cc; 
+        }
+
+        p:first-of-type::first-letter {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            float: left;
+            margin-right: 10px;
+            line-height: 1;
             color: #ff0055;
-            background: transparent;
-            border: 1px solid #ff0055;
-            border-radius: 30px;
-            text-decoration: none;
-            transition: all 0.4s ease;
-            font-family: sans-serif;
-            letter-spacing: 3px;
-            text-transform: uppercase;
         }
 
-        .enter-btn:hover {
-            background: #ff0055;
+        .navigation-area {
+            margin-top: 70px;
+            text-align: center;
+            border-top: 1px solid #27272a;
+            padding-top: 40px;
+        }
+
+        .next-btn {
+            display: inline-block;
+            padding: 12px 30px;
             color: #0b0b0d;
-            box-shadow: 0 0 20px #ff0055;
-            cursor: pointer;
+            background: #ff0055;
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-size: 0.95rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
         }
 
-        @keyframes fadeIn {
-            0% { opacity: 0; transform: translateY(10px); }
-            100% { opacity: 1; transform: translateY(0); }
+        .next-btn:hover {
+            box-shadow: 0 0 15px rgba(255, 0, 85, 0.7);
+            transform: translateY(-2px);
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <h1 class="title">The Midnight Vow</h1>
-        <p class="subtitle">A special birthday story written for you</p>
-        <a href="chapter1.html" class="enter-btn">Begin Reading</a>
+    <div class="story-wrapper">
+        <div class="chapter-header">
+            <div class="book-title">The Midnight Vow</div>
+            <div class="header-divider"></div>
+            
+            <span class="chapter-number">Chapter One</span>
+            <h2 class="chapter-title">The Intro</h2>
+        </div>
+
+        <p class="inner-thought">We create our own demons was once said by a legend but we spend our whole life hiding it, maybe he forgot to add this. Well it doesn't matter cause we all know it anyways.</p>
+        
+        <p class="inner-thought">I spent my whole life finding pieces of the missing puzzle of the chapter known as peace, but life never let me complete it.</p>
+        
+        <p>"you still with us Bruce?"</p>
+        
+        <p>"Yeah.. I was just thinking what to eat tonight"</p>
+        
+        <p class="inner-thought">I'm a terrible liar but people don't notice much, that keeps me safe</p>
+        
+        <p class="inner-thought">Besides me is Jack, 5'9 tall, looks average and always tags around me, I hate it but i won't say it,</p>
+        
+        <p class="inner-thought">Another one is Lily, soft spoken, average height and probably has crush on me, only if she knew the actual me</p>
+        
+        <p class="inner-thought">I'm Bruce, I spent my whole life creating masks, so no one can get to know the actual me, I'm 5'9 as well, and let's say i look better than the morons here</p>
+        
+        <p>"So you are joining us for football right?" Said jack happily</p>
+        
+        <p>"Ofc, give me a reason to say no" I said giving him a smile</p>
+        
+        <p class="inner-thought">The real me asked myself, is this what I'm supposed to do, do I belong there, can I handle them? Or better to say, can they handle ME?</p>
+
+        <div class="navigation-area">
+            <a href="chapter2.html" class="next-btn">Continue Journey</a>
+        </div>
     </div>
 
 </body>
