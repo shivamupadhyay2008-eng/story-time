@@ -87,9 +87,32 @@
 
         .navigation-area {
             margin-top: 70px;
-            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             border-top: 1px solid #27272a;
             padding-top: 40px;
+        }
+
+        .prev-btn {
+            display: inline-block;
+            padding: 12px 25px;
+            color: #ff0055;
+            background: transparent;
+            border: 1px solid #ff0055;
+            border-radius: 25px;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-size: 0.85rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+        }
+
+        .prev-btn:hover {
+            background: rgba(255, 0, 85, 0.1);
+            box-shadow: 0 0 10px rgba(255, 0, 85, 0.3);
+            transform: translateY(-2px);
         }
 
         .next-btn {
@@ -167,6 +190,7 @@
         <p class="inner-thought">The Headmaster thinks he is the one testing me. He thinks he is the Director. But he just handed me the keys to his entire stage. By the time I am done with Julian Vance... the Crescent won't just invite me in. They will fear me.</p>
 
         <div class="navigation-area">
+            <a href="chapter5.html" class="prev-btn">Previous</a>
             <a href="chapter7.html" class="next-btn">Continue Journey</a>
         </div>
     </div>
