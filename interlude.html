@@ -75,9 +75,32 @@
 
         .navigation-area {
             margin-top: 70px;
-            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             border-top: 1px dashed #ffaa00;
             padding-top: 40px;
+        }
+
+        .prev-btn {
+            display: inline-block;
+            padding: 12px 25px;
+            color: #ffaa00;
+            background: transparent;
+            border: 1px solid #ffaa00;
+            border-radius: 0px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.85rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            opacity: 0.7;
+        }
+
+        .prev-btn:hover {
+            opacity: 1;
+            box-shadow: 0 0 10px rgba(255, 170, 0, 0.4);
         }
 
         .next-btn {
@@ -142,6 +165,7 @@
         <p>And my vengeance's name is Bruce.</p>
 
         <div class="navigation-area">
+            <a href="chapter10.html" class="prev-btn">Return</a>
             <a href="chapter11.html" class="next-btn">Initialize Chapter 11</a>
         </div>
     </div>
