@@ -87,9 +87,32 @@
 
         .navigation-area {
             margin-top: 70px;
-            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             border-top: 1px solid #27272a;
             padding-top: 40px;
+        }
+
+        .prev-btn {
+            display: inline-block;
+            padding: 12px 25px;
+            color: #ff0055;
+            background: transparent;
+            border: 1px solid #ff0055;
+            border-radius: 25px;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-size: 0.85rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+        }
+
+        .prev-btn:hover {
+            background: rgba(255, 0, 85, 0.1);
+            box-shadow: 0 0 10px rgba(255, 0, 85, 0.3);
+            transform: translateY(-2px);
         }
 
         .next-btn {
@@ -149,6 +172,7 @@
         <p class="inner-thought">As they smiled back, the real me watched from behind the glass. Is this really what I am supposed to be doing? Playing their games? Pretending I belong here? The question isn't whether I can handle them. The real question is... when the mask finally slips, will they be able to handle ME?</p>
 
         <div class="navigation-area">
+            <a href="index.html" class="prev-btn">Home</a>
             <a href="chapter2.html" class="next-btn">Continue Journey</a>
         </div>
     </div>
