@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>End of Book One</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,900;1,400&family=Montserrat:wght@300;400;700&display=swap');
+
+        body {
+            background-color: #050505;
+            color: #ffffff;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .back-cover-container {
+            width: 90%;
+            max-width: 600px;
+            background-color: #0b0b0d;
+            border: 1px solid #27272a;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 40px rgba(0, 255, 204, 0.15), 0 20px 50px rgba(0,0,0,0.8);
+            position: relative;
+        }
+
+        .back-image {
+            width: 100%;
+            height: 250px;
+            /* A shattered/dark visual aesthetic for the betrayal */
+            background-image: url('https://images.unsplash.com/photo-1509114397022-ed747cca3f65?q=80&w=1470&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .back-image::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(11, 11, 13, 0) 0%, rgba(11, 11, 13, 1) 100%);
+        }
+
+        .back-content {
+            padding: 0 50px 50px 50px;
+            text-align: center;
+        }
+
+        .status-header {
+            color: #00ffcc; /* Shifting to cyan for the next phase */
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+        }
+
+        .teaser-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            font-weight: 900;
+            line-height: 1.2;
+            margin: 0 0 30px 0;
+        }
+
+        .teaser-text {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #c4c4cc;
+            text-align: justify;
+            margin-bottom: 40px;
+        }
+
+        .highlight {
+            color: #ffffff;
+            font-weight: 700;
+            font-style: italic;
+        }
+
+        .author-signoff {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            color: #ff0055;
+            margin-bottom: 40px;
+        }
+
+        .return-btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: transparent;
+            color: #a0a0aa;
+            border: 1px solid #444;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+        }
+
+        .return-btn:hover {
+            border-color: #00ffcc;
+            color: #00ffcc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="back-cover-container">
+        <div class="back-image"></div>
+        <div class="back-content">
+            <div class="status-header">Book One Concluded</div>
+            <h2 class="teaser-title">The Forge is Broken.<br>The War Begins.</h2>
+            
+            <p class="teaser-text">
+                The Grand Architect believed she had designed the perfect weapon. She stripped away his humanity, locked him in the dark, and handed the key to the girl he trusted most. 
+                <br><br>
+                But she forgot one critical variable: <span class="highlight">Weapons don't have loyalties. They only have targets.</span>
+                <br><br>
+                In Book Two, Bruce doesn't just play the board. He shatters it. And Lily? She is about to learn exactly what happens when you betray a monster in the dark.
+            </p>
+
+            <div class="author-signoff">Thank you for reading.<br>— Shivam</div>
+            
+            <a href="index.html" class="return-btn">Return to Cover</a>
+        </div>
+    </div>
+
+</body>
+</html>
